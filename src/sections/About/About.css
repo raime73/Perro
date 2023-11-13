@@ -1,0 +1,17 @@
+/* src/sections/About/About.css */
+
+.about-section {
+    margin-top: 100px; /* Ajusta este valor al alto de tu encabezado */
+  }
+  
+.about {
+    padding: 20px 0;
+    background-color: #1f1c1c; /* Esto es solo un color de fondo de ejemplo */
+  }
+  
+  .about .container {
+    width: 80%;
+    margin: auto;
+    /* Ajusta el ancho y el centrado según tus preferencias y diseño */
+  }
+  

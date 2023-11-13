@@ -1,0 +1,76 @@
+.skills-section {
+  padding: 40px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.skills-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.skill-card {
+  display: flex;
+  align-items: center; /* Esto ya está, pero es clave para la alineación vertical */
+  justify-content: center; /* Añade esta línea para centrar el contenido verticalmente */
+  flex-direction: column; /* Cambia la dirección del flex a columna */
+  width: 350px;
+  padding: 30px;
+  margin: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #ffffff;
+  color: #333;
+  border: 1px solid #eaeaea;
+  min-height: 330px; /* Ajusta según sea necesario */
+  overflow: auto; /* Añade barras de desplazamiento si es necesario */
+
+
+}
+
+.skill-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  background-color: #f7f7f7;
+
+}
+
+.skill-icon {
+  font-size: 3em;
+  margin-bottom: 15px; /* Añade un margen en la parte inferior del ícono */
+  color: #007bff;
+}
+
+.skill-title {
+  font-size: 1.5em;
+  font-weight: 500;
+  margin: 0;
+  color: #000000; /* Texto Negro */
+  text-align: center; /* Centra el texto horizontalmente */
+
+}
+
+.skill-level {
+  font-size: 1em;
+  color: #555;
+  text-align: center; /* Centra el texto horizontalmente */
+
+}
+
+.skill-description {
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 5px;
+  text-align: justify; /* Añade esta línea para justificar el texto */
+  text-align: left;
+  hyphens: auto;
+
+}
